@@ -5,7 +5,7 @@ import numpy as np
 from ultralytics import YOLO
 
 # Initialize YOLO model
-model = YOLO(r'C:\Users\spars\Desktop\YOLO\Training\runs\detect\train3\weights\best.pt')
+model = YOLO('best.pt')
 
 # Variables to store multiple ROI points
 rois = []  # List to store each parking spot ROI
