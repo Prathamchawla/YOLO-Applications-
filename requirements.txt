@@ -2,3 +2,4 @@ opencv-python
 ultralytics
 pillow
 torch
+libgl1-mesa-glx
